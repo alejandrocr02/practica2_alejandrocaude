@@ -1,0 +1,117 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="large_text">
+        "Material is the metaphor.\n\n"
+
+        "A material metaphor is the unifying theory of a rationalized space and a system of motion."
+        "The material is grounded in tactile reality, inspired by the study of paper and ink, yet "
+        "technologically advanced and open to imagination and magic.\n"
+        "Surfaces and edges of the material provide visual cues that are grounded in reality. The "
+        "use of familiar tactile attributes helps users quickly understand affordances. Yet the "
+        "flexibility of the material creates new affordances that supercede those in the physical "
+        "world, without breaking the rules of physics.\n"
+        "The fundamentals of light, surface, and movement are key to conveying how objects move, "
+        "interact, and exist in space and in relation to each other. Realistic lighting shows "
+        "seams, divides space, and indicates moving parts.\n\n"
+
+        "Bold, graphic, intentional.\n\n"
+
+        "The foundational elements of print based design typography, grids, space, scale, color, "
+        "and use of imagery guide visual treatments. These elements do far more than please the "
+        "eye. They create hierarchy, meaning, and focus. Deliberate color choices, edge to edge "
+        "imagery, large scale typography, and intentional white space create a bold and graphic "
+        "interface that immerse the user in the experience.\n"
+        "An emphasis on user actions makes core functionality immediately apparent and provides "
+        "waypoints for the user.\n\n"
+
+        "Motion provides meaning.\n\n"
+
+        "Motion respects and reinforces the user as the prime mover. Primary user actions are "
+        "inflection points that initiate motion, transforming the whole design.\n"
+        "All action takes place in a single environment. Objects are presented to the user without "
+        "breaking the continuity of experience even as they transform and reorganize.\n"
+        "Motion is meaningful and appropriate, serving to focus attention and maintain continuity. "
+        "Feedback is subtle yet clear. Transitions are efﬁcient yet coherent.\n\n"
+
+        "3D world.\n\n"
+
+        "The material environment is a 3D space, which means all objects have x, y, and z "
+        "dimensions. The z-axis is perpendicularly aligned to the plane of the display, with the "
+        "positive z-axis extending towards the viewer. Every sheet of material occupies a single "
+        "position along the z-axis and has a standard 1dp thickness.\n"
+        "On the web, the z-axis is used for layering and not for perspective. The 3D world is "
+        "emulated by manipulating the y-axis.\n\n"
+
+        "Light and shadow.\n\n"
+
+        "Within the material environment, virtual lights illuminate the scene. Key lights create "
+        "directional shadows, while ambient light creates soft shadows from all angles.\n"
+        "Shadows in the material environment are cast by these two light sources. In Android "
+        "development, shadows occur when light sources are blocked by sheets of material at "
+        "various positions along the z-axis. On the web, shadows are depicted by manipulating the "
+        "y-axis only. The following example shows the card with a height of 6dp.\n\n"
+
+        "Resting elevation.\n\n"
+
+        "All material objects, regardless of size, have a resting elevation, or default elevation "
+        "that does not change. If an object changes elevation, it should return to its resting "
+        "elevation as soon as possible.\n\n"
+
+        "Component elevations.\n\n"
+
+        "The resting elevation for a component type is consistent across apps (e.g., FAB elevation "
+        "does not vary from 6dp in one app to 16dp in another app).\n"
+        "Components may have different resting elevations across platforms, depending on the depth "
+        "of the environment (e.g., TV has a greater depth than mobile or desktop).\n\n"
+
+        "Responsive elevation and dynamic elevation offsets.\n\n"
+
+        "Some component types have responsive elevation, meaning they change elevation in response "
+        "to user input (e.g., normal, focused, and pressed) or system events. These elevation "
+        "changes are consistently implemented using dynamic elevation offsets.\n"
+        "Dynamic elevation offsets are the goal elevation that a component moves towards, relative "
+        "to the component’s resting state. They ensure that elevation changes are consistent "
+        "across actions and component types. For example, all components that lift on press have "
+        "the same elevation change relative to their resting elevation.\n"
+        "Once the input event is completed or cancelled, the component will return to its resting "
+        "elevation.\n\n"
+
+        "Avoiding elevation interference.\n\n"
+
+        "Components with responsive elevations may encounter other components as they move between "
+        "their resting elevations and dynamic elevation offsets. Because material cannot pass "
+        "through other material, components avoid interfering with one another any number of ways, "
+        "whether on a per component basis or using the entire app layout.\n"
+        "On a component level, components can move or be removed before they cause interference. "
+        "For example, a floating action button (FAB) can disappear or move off screen before a "
+        "user picks up a card, or it can move if a snackbar appears.\n"
+        "On the layout level, design your app layout to minimize opportunities for interference. "
+        "For example, position the FAB to one side of stream of a cards so the FAB won’t interfere "
+        "when a user tries to pick up one of cards.\n\n"
+    </string>
+    <string name="action_settings">Settings</string>
+    <string name="bottom_app_bar_text">Bottom app bar</string>
+    <string name="card_title">Nombre</string>
+    <string name="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</string>
+    <string name="wikipedia">Ver en Wikipedia</string>
+    <string name="ibai">Ibai Llanos Garatea nació en Deusto, Bilbao, el 26 de marzo de 1995.14​ Su padre, Javier, es un médico sanitario.15​ De niño, Ibai admitió ser una persona muy creativa e imaginativa, con grandes intereses en los deportes y el periodismo.16​ En una entrevista, Llanos contó que la crisis económica española provocó un duro momento financiero en su casa y por lo tanto, tuvo que encontrar refugio en los videojuegos y la narración de deportes electrónicos.17​ En su adolescencia, junto a su mejor amigo Ander Cortés, empezó a subir gameplays de Call of Duty Modern Warfare 2 en YouTube bajo el alias Ibai95.18​ Luego, empezaron a narrar de forma aficionada en partidas de League of Legends en el nivel de bronce (la división más baja del juego) en transmisiones por Twitch.18​</string>
+    <string name="nombreIbai">Ibai Llanos</string>
+    <string name="pique">Gerard Piqué Bernabéu (Barcelona, 2 de febrero de 1987) es un futbolista español que juega como defensa en el F. C. Barcelona de la Primera División de España. Fue internacional absoluto con la selección de España entre 2009 y 2018, totalizando 102 partidos y 5 goles, con ella se proclamó campeón mundial en 2010 y campeón continental en 2012.2​</string>
+    <string name="PiqueN">Gerard Pique</string>
+    <string name="RafaN">Rafa Nadal</string>
+    <string name="rafa">"Está considerado como el mejor tenista de la historia en pistas de tierra batida8​9​10​ y uno de los mejores de todos los tiempos.11​12​13​14​15​16​ Hasta la fecha, es el tenista masculino con mayor número de títulos de Grand Slam en individuales, con 22, por delante del serbio Novak Djokovic, con 21, y del suizo Roger Federer, con 20. Consiguió el Abierto de Australia en dos ocasiones, el Torneo de Roland Garros en catorce ediciones (siendo el tenista que más veces lo ha conseguido en toda la historia), el Campeonato de Wimbledon en dos ocasiones y el Abierto de Estados Unidos en cuatro ocasiones. Se encuentra en segunda posición, tras Novak Djokovic (38), como jugador con más títulos de Masters 1000 en modalidad individual, con 36; y por delante de otros célebres tenistas como Roger Federer (28), el checo Ivan Lendl (22) y los estadounidenses John McEnroe (19), Jimmy Connors (17) y Andre Agassi (17).  Está considerado como el mejor tenista de la historia en pistas de tierra batida8​9​10​ y uno de los mejores de todos los tiempos.11​12​13​14​15​16​ Hasta la fecha, es el tenista masculino con mayor número de títulos de Grand Slam en individuales, con 22, por delante del serbio Novak Djokovic, con 21, y del suizo Roger Federer, con 20. Consiguió el Abierto de Australia en dos ocasiones, el Torneo de Roland Garros en catorce ediciones (siendo el tenista que más veces lo ha conseguido en toda la historia), el Campeonato de Wimbledon en dos ocasiones y el Abierto de Estados Unidos en cuatro ocasiones. Se encuentra en segunda posición, tras Novak Djokovic (38), como jugador con más títulos de Masters 1000 en modalidad individual, con 36; y por delante de otros célebres tenistas como Roger Federer (28), el checo Ivan Lendl (22) y los estadounidenses John McEnroe (19), Jimmy Connors (17) y Andre Agassi (17).  "</string>
+    <string name="CR">Cristiano Ronaldo</string>
+    <string name="ronaldo">Cristiano Ronaldo dos Santos Aveiro (pronunciación en portugués: /kɾiʃˈtiɐnu ʁuˈnaɫdu/; Funchal, Madeira; 5 de febrero de 1985), conocido como Cristiano Ronaldo, es un futbolista portugués que juega como delantero o extremo. Jugador histórico, estuvo ligado a diversos equipos importantes antes de integrar desde 2021 el plantel del Manchester United Football Club de la Premier League de Inglaterra. Es también internacional con la selección de Portugal, equipo del que es capitán y máximo goleador histórico.  Considerado con frecuencia el mejor y más completo futbolista y goleador del mundo19​ y uno de los mejores de todos los tiempos,n 3​20​ es uno de los futbolistas más laureados de la historia, habiendo ganado, entre otras distinciones, cinco veces el Balón de Oro, cinco premios de la FIFA al mejor jugador del mundo y cuatro Botas de Oro. En 2020, tuvo el honor de ser elegido el mejor Jugador del Siglo xxi en la gala de los Globe Soccer Awards,21​22​ convirtiéndose en el primer futbolista europeo y el primer portugués en recibirlo, además de ser incluido en el Dream Team del Balón de Oro.23​  Identificado habitualmente en los medios de comunicación con el numerónimo CR7,n 4​24​ es, con 815 goles, el máximo goleador en la historia del fútbol profesional,25​26​ y con 450,27​ el máximo goleador histórico del Real Madrid Club de Fútbol,n 5​28​ consiguiéndolo en las nueve temporadas que jugó en este club. Es además, según los portales expertos en estadísticas históricas de la RSSSF y la IFFHS, el tercer máximo goleador en los campeonatos de Primera División de Europa, con 497 goles —mismo registro a nivel mundial—,29​ siendo estos datos reconocidos por la UEFA y la FIFA.n 6​30​31​</string>
+    <string name="NC">CC NUEVO CENTRO</string>
+    <string name="dirNC">AV .pius xii</string>
+    <string name="NCnum">250</string>
+    <string name="dirArena">C. de Santa Genoveva Torres</string>
+    <string name="Arena">CC Arena</string>
+    <string name="Arnum">120</string>
+    <string name="Bonaire">CC Bonaire</string>
+    <string name="Bnnum">205</string>
+    <string name="dirBonaire">Autovía del Este, Km. 345</string>
+    <string name="Aqua">CC Aqua</string>
+    <string name="dirAqua">Carrer de Menorca</string>
+    <string name="Anum">156</string>
+</resources>
